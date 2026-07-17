@@ -1,0 +1,27 @@
+const app=document.querySelector(".weather-app");
+
+function updateWeather(data){
+
+temperature.textContent=data.temp+"℃";
+
+humidity.textContent=data.humidity+"%";
+
+wind.textContent=data.wind+"m/s";
+
+rain.textContent=data.rain+"%";
+
+}
+
+function changeTheme(weather){
+
+if(weather=="Rain"){
+
+app.className="weather-app theme-rain";
+
+}else{
+
+app.className="weather-app theme-sunny";
+
+}
+
+}
