@@ -1,0 +1,31 @@
+{
+  "short_name": "우산챙겨",
+  "name": "우산챙겨! Weather PRO",
+  "description": "비 소식과 날씨 요약에 집중한 가장 직관적인 날씨 비서",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-192-maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#1a222d",
+  "theme_color": "#2b3a4a",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["weather", "utilities"]
+}
