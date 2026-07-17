@@ -1,5 +1,3 @@
-# weather-pro
-a weather program
 <!DOCTYPE html>
 <html lang="ko">
 <head>
